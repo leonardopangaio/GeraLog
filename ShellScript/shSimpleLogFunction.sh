@@ -16,7 +16,7 @@ function log {
         log "Pasta '$pasta' criada."
     fi
 
-    echo "$(date +"%Y-%m-%d %H:%M:%S") - $message" >> ${pasta}/executaLote_${carimbo_full}.log 2>&1
+    echo "$(date +"%Y-%m-%d %H:%M:%S") - $message" >> ${pasta}/LogFileName_${carimbo_full}.log 2>&1
     echo "$(date +"%Y-%m-%d %H:%M:%S") - $message"
 }
 
